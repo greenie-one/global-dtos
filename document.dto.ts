@@ -12,7 +12,7 @@ export class createDocumentDto {
 
   @IsNotEmpty()
   @IsString()
-  public private_url: string;
+  public privateUrl: string;
 }
 
 export class updateDocumentDto {
@@ -26,5 +26,12 @@ export class updateDocumentDto {
 
   @IsString()
   @IsOptional()
-  public private_url: string;
+  public privateUrl: string;
+}
+
+export interface getDocumentResponseDto {
+  id: string;
+  name: string;
+  type: DocumentType;
+  privateUrl: string;
 }
