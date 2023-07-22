@@ -1,0 +1,9 @@
+{
+  "name": "backend-core-types",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "repository": "git@github.com:greenie-one/global-dtos.git",
+  "author": "Sahil Gupte <ovenoboyo@gmail.com>",
+  "license": "MIT",
+  "private": true
+}
