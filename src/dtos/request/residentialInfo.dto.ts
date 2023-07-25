@@ -1,4 +1,4 @@
-export class AddResidentialInfoDto {
+export class CreateResidentialInfoDto {
   public address_line_1!: string;
   public address_line_2!: string;
   public landmark!: string;

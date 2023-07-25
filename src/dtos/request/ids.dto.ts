@@ -4,7 +4,7 @@ export enum IDTypeEnum {
   DRIVING_LICENSE = 'DRIVING_LICENSE',
 }
 
-export class AddIDDto {
+export class CreateIDDto {
   public id_type?: IDTypeEnum;
   public id_number?: string;
   public dob?: string;

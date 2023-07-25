@@ -1,9 +1,5 @@
-import { SkillTypeEnum } from "../request/skills.dto";
-export interface AddSkillResponse {
-  id: string;
-  success: boolean;
-}
-
+import { SkillTypeEnum } from '../request/skills.dto';
+export type CreateSkillResponse = SkillResponse;
 export interface SkillResponse {
   id: string;
   skillName: string;
@@ -11,7 +7,4 @@ export interface SkillResponse {
   expertise: SkillTypeEnum;
 }
 
-export interface GetSkillsResponse {
-  skills: SkillResponse[];
-}
-
+export type GetSkillsResponse = SkillResponse[];
