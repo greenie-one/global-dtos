@@ -1,5 +1,5 @@
 // rome-ignore format: Imports need to be remove and i'm too lazy to write a multi-line import removal regex
-import { IsArray, IsEmail, IsEnum, IsNotEmpty, IsOptional, IsString, MaxLength, MinLength, Validate, ValidateIf, ValidateNested } from "class-validator";
+import { IsArray, IsEmail, IsEnum, IsNotEmpty, IsOptional, IsString, MaxLength, MinLength, ValidateIf, ValidateNested } from "class-validator";
 export enum OtpType {
   EMAIL = 'EMAIL',
   MOBILE = 'MOBILE',
