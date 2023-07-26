@@ -20,3 +20,4 @@ export class UpdateDocumentDto {
   public privateUrl: string;
   public workExperience?: string;
 }
+

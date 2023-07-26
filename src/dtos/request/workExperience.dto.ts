@@ -16,7 +16,7 @@ export class CreateWorkExperienceDto {
   public department!: string;
   public workType?: string;
   public companyName!: string;
-  public companyId!: string;
+  public companyId?: string;
   public linkedInUrl?: string;
   public reason_for_leaving?: string;
   public salary?: string;

@@ -1,4 +1,4 @@
-export class GPScompareDto {
+export class GPScompare {
   public GPS: string;
 }
 

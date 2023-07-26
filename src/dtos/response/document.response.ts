@@ -1,4 +1,4 @@
-import { DocumentType } from "../request/document.dto";
+import { DocumentType } from '../request/document.dto';
 export interface GetDocumentResponse {
   id: string;
   name: string;
