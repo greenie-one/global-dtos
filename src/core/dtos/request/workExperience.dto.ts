@@ -17,8 +17,6 @@ export class CreateWorkExperienceDto {
   public workType?: string;
   public companyName!: string;
   public companyId?: string;
-    host_whitelist: ["linkedin.com", "www.linkedin.com"],
-  })
   public linkedInUrl?: string;
   public reason_for_leaving?: string;
   public salary?: string;
