@@ -1,4 +1,5 @@
 export * from './core/dtos/response/users.response'
+export * from './core/dtos/response/residentialPeer.response'
 export * from './core/dtos/response/waitlist.response'
 export * from './core/dtos/response/profile.response'
 export * from './core/dtos/response/workExperience.response'

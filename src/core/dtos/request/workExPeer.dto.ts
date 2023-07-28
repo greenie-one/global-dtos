@@ -52,6 +52,7 @@ export class SelectedFieldsDTO {
   public workType?: StatusField;
   public workMode?: StatusField;
   public salary?: StatusField;
+  public companyId?: StatusField;
 }
 
 export class AllQuestionsDTO {

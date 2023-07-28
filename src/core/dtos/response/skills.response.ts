@@ -8,3 +8,5 @@ export interface SkillResponse {
 }
 
 export type GetSkillsResponse = SkillResponse[];
+export type DeleteSkillResponse = Record<string, never>
+export type UpdateSkillResponse = SkillResponse

@@ -13,3 +13,9 @@ export class CreateSkillDto {
   public expertise!: SkillTypeEnum;
 }
 
+export class UpdateSkillDto {
+  public skillName?: string;
+  public workExperience?: string;
+  public expertise?: SkillTypeEnum;
+}
+

@@ -8,6 +8,7 @@ export class CreateResidentialInfoDto {
   public country!: string;
   public start_date?: Date;
   public end_date?: Date;
+  public addressType: string
 }
 
 export class UpdateResidentialInfoDto {

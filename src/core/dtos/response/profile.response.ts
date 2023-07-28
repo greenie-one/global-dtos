@@ -13,5 +13,6 @@ export type CreateProfileResponse = GetProfileResponse;
 export type UpdateProfileResponse = GetProfileResponse;
 export interface GetProfileRankingResponse {
   percentile: number;
+  score: number
 }
 
