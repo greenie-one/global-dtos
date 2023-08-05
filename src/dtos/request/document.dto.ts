@@ -1,8 +1,6 @@
 export enum DocumentType {
   WORK = 'work',
-  CERTIFICATE = 'certificate',
-  MARKSHEET = 'marksheet',
-  TAX = 'tax',
+  ID = 'id',
   EDUCATION = 'education',
   OTHER = 'other',
 }
