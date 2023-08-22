@@ -60,4 +60,3 @@ export interface IdReportResonse {
   pan: PanReportResponse;
   dl: drivingLicenseReportResponse;
 }
-
