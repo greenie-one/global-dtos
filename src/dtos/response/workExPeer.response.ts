@@ -15,6 +15,7 @@ export interface GetUserWorkPeerResponse {
   workExperience: string;
   peerPost: string;
   isVerificationCompleted: boolean;
+  isReal: Status;
   createdAt: string;
   updatedAt: string;
 }

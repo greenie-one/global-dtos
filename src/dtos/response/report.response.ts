@@ -13,6 +13,7 @@ export interface WorkPeerReportResponse {
   phoneVerified?: boolean;
   verificationBy: WorkVerificationBy;
   selectedFields?: SelectedFields;
+  isReal: Status
   allQuestions?: AllQuestions;
   otherQuestions: HRQuestions;
   skills: SkillsVerification[];

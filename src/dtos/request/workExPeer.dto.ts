@@ -10,7 +10,7 @@ import {
   ValidateNested,
   ValidatorConstraint,
   ValidatorConstraintInterface,
-  validate,
+  validate
 export enum WorkVerificationBy {
   COLLEAGUE = 'COLLEAGUE',
   REPORTING_MANAGER = 'REPORTING_MANAGER',
@@ -68,8 +68,9 @@ export class AllQuestionsDTO {
 
 export class HRQuestionsDTO {
   // From Work Ex HR Questions
-  public exitProcedure!: StatusField;
-  public eligibleForRehire!: StatusField;
+  public exitProcedure?: StatusField;
+  public eligibleForRehire?: StatusField;
+  public onNotice?: StatusField;
 }
 
 export class CreateWorkPeerDto {
@@ -111,6 +112,7 @@ export class IsValidNestedQuestion implements ValidatorConstraintInterface {
 
 export class UpdatePeerWorkVerificationDto {
   public selectedFields?: SelectedFieldsDTO;
+  public isReal!: StatusField;
   public allQuestions!: AllQuestionsDTO;
   public otherQuestions?: HRQuestionsDTO;
   public skills!: UpdateSkillsVerification[];
